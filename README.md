@@ -6,11 +6,12 @@
 
 <!-- <h1 align="center">YOLOFusion Project</h1> -->
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-teal.svg)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Object%20Detection-red.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
+  <img src="https://img.shields.io/badge/Flutter-3.0+-blue.svg" />
+  <img src="https://img.shields.io/badge/FastAPI-0.95+-teal.svg" />
+  <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-red.svg" />
+</p>
 
 ---
 
