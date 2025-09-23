@@ -35,4 +35,5 @@ frontend/.dart_tool/
 *.pt
 *.onnx
 *.pkl
-
+# Never track nested .git folders
+**/.git
