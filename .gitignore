@@ -38,3 +38,12 @@ frontend/.dart_tool/
 *.pth
 # Never track nested .git folders
 **/.git
+
+# Ignore large ML/DL model files
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+models/
+
