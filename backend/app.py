@@ -62,8 +62,20 @@ try:
     age_model = load_model(AGE_MODEL_PATH)
 
     logger.debug("Loading HAR model (R(2+1)D-18)...")
-    har_model = torchvision.models.video.r2plus1d_18(weights=None)  # define model arch
-    har_model.load_state_dict(torch.load("r2plus1d_18-91a641e6.pth"))  # load checkpoint
+    # har_model = torchvision.models.video.r2plus1d_18(weights=None)  # define model arch
+    # har_model.load_state_dict(torch.load("r2plus1d_18-91a641e6.pth"))  # load checkpoint
+    # har_model.eval()
+
+    # Define model architecture
+    har_model = torchvision.models.video.r2plus1d_18(weights=None)
+
+# Build path to model inside 'models' folder
+    model_path = os.path.join("models", "r2plus1d_18-91a641e6.pth")
+
+# Load checkpoint
+    har_model.load_state_dict(torch.load(model_path, map_location="cpu"))
+
+# Set model to evaluation mode
     har_model.eval()
 
     logger.debug("All models loaded successfully")
