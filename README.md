@@ -20,12 +20,15 @@
 
 It features a *Flutter frontend* for cross-platform support (Android, iOS, Desktop) and a *FastAPI backend* for efficient model inference and streaming.  
 This project is designed to be *research-grade, production-ready, and extensible*.  
-<h2 align="center">Architecture Diagram</h2>
+
+<h2 align="left"> 🏗️ Architecture Diagram</h2>
 <p align="center">
   <img src="Docs/Architecture.jpg" alt="Architecture" width="600"/>
 </p>
 
+
 ---
+
 
 ## ✨ Features  
 
@@ -36,7 +39,10 @@ This project is designed to be *research-grade, production-ready, and extensible
 - *🎨 Modern UI* → Animated, responsive, and intuitive user interface.  
 - *📊 Analytics Ready* → Extendable for logging detections & visualizing insights.  
 
-Example Outputs:  
+
+---
+
+
 ## Example Outputs  
 
 <h2 align="center">Detections</h2>
